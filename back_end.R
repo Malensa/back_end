@@ -19,8 +19,8 @@ library(DBI)
 #open connection
 ip <- "35.228.50.60"
 db_name <- "postgres"
-user <- "readonly"
-pwd <- "!JjFlGMjREf53965EvE"
+user <- ""
+pwd <- ""
 
 #Connection Setup
 db <- DBI::dbConnect(RPostgres::Postgres(),
