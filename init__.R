@@ -9,15 +9,13 @@
 ###################################################################################################
 
 # sourcing necessary files ----
-source("src/config.R")
-source("src/create_api.R")
-source("src/db_connection.R")
+source("src/score.R")
 
 # install necessary packages --- it would be better to create a function
 library(plumber)
 
 # running the back-end (APIs) ---
-r <- plumb("src/create_api.R")
+r <- plumb("src/score.R")
 # Where 'plumber.R' is the location of the file shown above
 
 # Run r on port 8000
