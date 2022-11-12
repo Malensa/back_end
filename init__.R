@@ -9,6 +9,7 @@
 ###################################################################################################
 
 # sourcing necessary files ----
+source("src/config.R")
 source("src/score.R")
 
 # install necessary packages --- it would be better to create a function
