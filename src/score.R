@@ -1,4 +1,7 @@
-### Trial
+# Getting the score
+# score.R
+
+#Setting the API
 
 #* @get /get_table
 #* @param foodlink
